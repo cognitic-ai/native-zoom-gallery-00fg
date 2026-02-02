@@ -86,7 +86,7 @@ export default function GalleryScreen() {
           <Link
             key={photo.id}
             href={{
-              pathname: "/photo/[id]",
+              pathname: "/(gallery)/photo/[id]",
               params: { id: photo.id },
             }}
             asChild
